@@ -1,0 +1,64 @@
+.table-container {
+    width:70%;
+    padding: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.addBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: .6rem 1rem;
+    margin-bottom: .5rem;
+}
+
+.tableBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.tableBtns button:first-of-type {
+    margin-right: .5rem;
+}
+
+.tableBtns button {
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    background-color: transparent;
+}
+
+.anticon-delete {
+    color: red; 
+}
+
+.anticon-edit {
+    color: green;
+}
+
+table tbody tr td:nth-child(5) {
+    padding: 0;
+}
+
+table tr td {
+    text-align: center;
+}
+
+.ant-table-thead .ant-table-cell {
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+}
+
+.ant-table-tbody .ant-table-cell {
+    background-color: rgb(255, 236, 202);
+}
